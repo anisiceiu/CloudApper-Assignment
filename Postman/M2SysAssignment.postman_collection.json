@@ -1,0 +1,67 @@
+{
+	"id": "f3222b7f-31b4-cb6f-96a5-473908b89f9f",
+	"name": "M2SysAssignment",
+	"description": "",
+	"order": [
+		"2a0c411c-56f2-a36b-6d84-3c6471d28e56",
+		"50b01185-7dd4-71aa-87e0-30868108891d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1673789766925,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2a0c411c-56f2-a36b-6d84-3c6471d28e56",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:7242/api/Image/download-images",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1673859172561,
+			"name": "DownloadImagesRequest",
+			"description": "",
+			"collectionId": "f3222b7f-31b4-cb6f-96a5-473908b89f9f",
+			"responses": [],
+			"rawModeData": "{\r\n  \"imageUrls\": [\r\n\"https://thumbs.dreamstime.com/b/shanghai-disney-castle-night-94803525.jpg\",\r\n\"https://media.istockphoto.com/id/525752517/photo/minnie-and-mickey-mouse-ride-disney-parks-float.jpg?s=612x612&w=0&k=20&c=rM_3H4Ds_dZnBI7JoH-DEXdZmy0QHoj19c6z_Uq04_A=\",\r\n\"https://media.gettyimages.com/id/54083031/photo/in-this-handout-photo-provided-by-disney-mickey-and-minnie-mouse-are-seen-in-front-of-the.jpg?s=612x612&w=gi&k=20&c=hAdoIV4JpaHMvy-KKPFc7V3b_T6aNh3kLK-SwqsOUpc=\",\r\n\"https://www.shutterstock.com/image-photo/brest-belarus-march-15-2019-260nw-1341385184.jpg\",\r\n\"https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/90/media/disneyparks_v0100/1/media/mediaplayer/homepage/mickey-minnie-16x9.jpg\",\r\n\"https://loveincorporated.blob.core.windows.net/contentimages/gallery/53a86fdb-bf8f-40e6-acd6-653ba473359a-disney-world-50-anniversary-celebration-2021.jpg\",\r\n\"https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1300/2304/75/vision-dam/digital/parks-platform/parks-global-assets/disney-world/attractions/cinderella-castle/cinderella-castle-2x1.jpg?2022-03-10T19:40:10+00:00\",\r\n\"https://cdn.britannica.com/19/103119-050-B79BFFC0/Main-Street-USA-Walt-Disney-World-Florida.jpg\",\r\n\"https://cdn1.parksmedia.wdprapps.disney.com/dam/wdpro-assets/photopass/resource-bundles/meta-500x334-022621-wdw.jpg\",\r\n\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Magic_Kingdom_-_The_%27Big_Bang%27_at_Wishes_-_by_hyku.jpg/300px-Magic_Kingdom_-_The_%27Big_Bang%27_at_Wishes_-_by_hyku.jpg\",\r\n\"https://img.freepik.com/free-vector/code-testing-cartoon-banner-functional-test-methodology-programming-search-errors-bugs-website-platform-development-dashboard-usability-optimization-computer-pc-vector-illustration_107791-3766.jpg?w=900&t=st=1673858938~exp=1673859538~hmac=83e6d0afd064748475d9b199a88e037c7d030575e1e03d1bccc08ea12e0be6ac\",\r\n\"https://img.freepik.com/free-vector/bug-fixing-software-testing-computer-virus-searching-tool-devops-web-optimization-antivirus-app-magnifier-cogwheel-monitor-design-element_335657-2640.jpg?w=740&t=st=1673858986~exp=1673859586~hmac=332544d6bde6437616203c4b3844e9e0df2e0ad8a2b86a91db5fb69f936c6a4d\",\r\n\"https://img.freepik.com/premium-vector/isometric-sets-use-mobile-applications-by-young-entrepreneurs_130740-102.jpg?w=826\",\r\n\"https://img.freepik.com/premium-vector/abstract-colorful-lava-fluids-with-geometric-lines-vector-illustrations-set-bubble-gradients-shapes-motion-artistic-background-graphic-elements-collection-dynamic-art-liquid-forms-flowing_570429-4322.jpg?w=826\",\r\n\"https://img.freepik.com/free-vector/summer-sports-flat-sup-board-collection_23-2149406173.jpg?t=st=1673859027~exp=1673859627~hmac=46e58dafefcc876ecba7b772ff8f5b7391d8bca2cfcb8766a7ddf990d9745531\"\r\n  ],\r\n  \"maxDownloadAtOnce\": 15\r\n}"
+		},
+		{
+			"id": "50b01185-7dd4-71aa-87e0-30868108891d",
+			"headers": "",
+			"headerData": [],
+			"url": "https://localhost:7242/api/Image/get-image-by-name/3e0d6e10-7f97-43dc-8560-c5db453e079f.png",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1673855104124,
+			"name": "GetImagesByNameRequest",
+			"description": "",
+			"collectionId": "f3222b7f-31b4-cb6f-96a5-473908b89f9f",
+			"responses": []
+		}
+	]
+}
