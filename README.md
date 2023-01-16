@@ -16,3 +16,5 @@ image.
 Url:https://localhost:7242/api/Image/get-image-by-name/3e0d6e10-7f97-43dc-8560-c5db453e079f.png
 Method: GET
 
+**Inside Postman directory you will find postman collection.
+
